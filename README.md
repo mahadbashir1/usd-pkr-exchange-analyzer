@@ -36,9 +36,9 @@ Make sure you have Python 3 installed on your machine. You will also need `pip` 
    # On macOS/Linux:
    source venv/bin/activate
    ```
-3. Install the required Python packages:
+3. Install the required Python packages from `requirements.txt`:
    ```bash
-   pip install requests beautifulsoup4 pandas matplotlib
+   pip install -r requirements.txt
    ```
 
 ### Running the App
